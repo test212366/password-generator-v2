@@ -1,0 +1,18 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: rgb(255, 255, 255);
+}
+.pw-container {
+	width: 400px;
+}
+.btn {
+	position: fixed;
+	top: 15%;
+}
+.btn-generate {
+	border: none;
+	padding: 10px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="pw-container">
+		<div class="pw-header">
+			<div class="pw" id="pw">
+
+			</div>
+			<button class="btn" id="copy">Copy</button>
+		</div>
+		<div class="pw-body">
+			<div class="form-control">
+				<input type="number" id="len" min="4" max="40">
+				<label for="len">Password Length</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="upper">
+				<label for="upper">Contain Uppercase Letters</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="lower">
+				<label for="lower">Contain Lowercase Letters</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="number">
+				<label for="number">Contain Numbers</label>
+			</div>
+			<div class="form-control">
+				<input type="checkbox" id="symbol">
+				<label for="symbol">Contain Sumbols</label>
+			</div>
+			<button class="btn-generate" id="generate">generate</button>
+		</div>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
